@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chat Bot</title>
+</head>
+<body>
+
+<img src="https://shilpaahuja.com/wp-content/uploads/2015/12/gigi-hadid-instagram-hot-supermodel-sexy-portrait-red-
+
+top.jpg" alt="My Smoking Hot Supermodel Girlfriend" style="width:128px;height:128px;">
+
+<br>
+<br>
+
+<h3>My Smoking Hot Supermodel Girfriend</h3>
+
+<h4 id="herText">Hello sexy! :)</h4>
+
+
+<br>
+<br>
+
+<img src="https://pbs.twimg.com/profile_images/1123754326944620544/zXh_ykS0_400x400.jpg" alt="Me, An Absolute Chad" 
+
+style="width:128px;height:128px;">
+
+<br>
+<br>
+
+<h3>Me, An Absolute Chad</h3>
+
+<h4 id="textOption0" onclick="functionOption0()">Say: You don't look half bad yourself! ;)</h4>
+
+<script>
+
+var convoState = "Hello sexy! :)";
+
+function functionOption0() { 
+
+	if (convoState === "Hello sexy! :)") {
+
+  		document.getElementById("herText").innerHTML = "How's it going, sexy? :P";
+		document.getElementById("textOption0").innerHTML = "Say: Lol I'm bored. Later.";
+		convoState = "How's it going, sexy? :P";
+
+	} else if (convoState === "How's it going, sexy? :P") {
+
+		document.getElementById("herText").innerHTML = "lolk";
+		document.getElementById("textOption0").innerHTML = "lmfao";
+		convoState = "End";
+
+	} else {
+
+
+	}
+
+}
+
+</script>
+
+</body>
+</html>
